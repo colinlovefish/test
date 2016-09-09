@@ -65,7 +65,9 @@
         NSLog(@"不存在");
     }
     
-  NSString *test =  @"1.0";
+
+    NSString *test = @"2.0";
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
