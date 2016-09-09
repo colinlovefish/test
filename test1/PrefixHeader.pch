@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  test1
+//
+//  Created by yinghu on 16/8/25.
+//  Copyright © 2016年 yinghu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YYKit.h"
+static const NSTimeInterval kAnimationDuration = 0.3;//动画时常
+//NSString *const EOCStringConstant = @"VALUE";
+//extern NSString *const EOCStringConstant;
+
+//enum EOCConnectionState {
+//    EOCConnectionStateDisconnected,
+//    EOCConnectionStateConnecting,
+//    EOCConnectionStateConnected,
+//};
+
+enum UIViewAutoresizingCustom {
+    CustomAutoresizingNone         = 0,
+    CustomAutoresizingMargin       = 1 << 0,
+    CustomAutoresizingWidth        = 1 << 1,
+    CustomAutoresizingRightMargin  = 1 << 2,
+    CustomAutoresizingTopMargin    = 1 << 3,
+    CustomAutoresizingHeight       = 1 << 4,
+    
+};
+
+typedef NS_ENUM(NSUInteger , ZEWConnectionState) {
+    ZEWConnectionStateDisconnected,
+    ZEWConnectionStateConnecting,
+    ZEWConnectionStateConnected,
+};
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
